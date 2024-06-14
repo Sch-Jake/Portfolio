@@ -1,4 +1,5 @@
 
+
 .wrapper h1 {
   top: 50%;
   left: 50%;
@@ -15,6 +16,7 @@
   white-space: nowrap; /* Prevents text from wrapping */
   border-right: .15em solid orange; /* Creates the cursor effect */
   animation: typing 1s steps(23, end), blink .75s step-end infinite, removeCursor 0s step-end 2s forwards;
+  z-index: 2;
 }
 
 /* Existing CSS */
@@ -74,7 +76,9 @@ html, body {
 .wrapper div {
   height: 60px;
   width: 60px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(250, 2, 2, 0.7);
+  background-color: rgba(64, 255, 0, 0.7);
+  z-index: 1;
   border-radius: 50%;
   position: absolute;
   animation: animate 4s linear infinite;
@@ -84,7 +88,7 @@ div .dot {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(203, 5, 5, 0.5);
   position: absolute;
   top: 20%;
   right: 20%;
