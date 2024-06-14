@@ -1,16 +1,3 @@
-@keyframes typing {
-  from { width: 0; }
-  to { width: 20ch; } /* Adjust the width to the length of the text "Jake" */
-}
-
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
-@keyframes removeCursor {
-  0% { border-color: orange; }
-  100% { border-color: transparent; }
-}
 
 .wrapper h1 {
   top: 50%;
