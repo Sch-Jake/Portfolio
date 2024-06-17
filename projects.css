@@ -216,13 +216,14 @@ div .dot {
 }
 
 #info {
+  font-size: 20px;
   color: #fff;
   position: absolute;
-  top: 40%; 
-  left: 25%;
+  top: 37%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; /* Center align the text */
-  width: 40%;
+  width: 75%;
 }
 
 @keyframes animate {
