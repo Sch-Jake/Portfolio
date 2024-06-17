@@ -10,15 +10,10 @@
   word-spacing: 2px;
   color: #fff;
   font-size: 40px;
-  font-weight: 800; /* Use a standard value */
-  text-transform: uppercase;
   overflow: hidden; /* Ensures the typing effect looks good */
   white-space: nowrap; /* Prevents text from wrapping */
-  border-right: .15em solid orange; /* Creates the cursor effect */
-  animation: typing 1s steps(23, end), blink .75s step-end infinite, removeCursor 0s step-end 2s forwards;
   z-index: 2;
 }
-
 * {
   margin: 0;
   padding: 0;

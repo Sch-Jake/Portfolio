@@ -215,6 +215,15 @@ div .dot {
   animation: animate 9s linear infinite;
 }
 
+#info {
+  color: #fff;
+  position: absolute;
+  top: 40%; 
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align the text */
+  width: 40%;
+}
 
 @keyframes animate {
   0% {
