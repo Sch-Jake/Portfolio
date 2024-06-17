@@ -1,21 +1,8 @@
 
 
 .wrapper h1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  font-family: sans-serif;
-  letter-spacing: 1px;
-  word-spacing: 2px;
   color: #fff;
   font-size: 40px;
-  font-weight: 800; /* Use a standard value */
-  text-transform: uppercase;
-  overflow: hidden; /* Ensures the typing effect looks good */
-  white-space: nowrap; /* Prevents text from wrapping */
-  border-right: .15em solid orange; /* Creates the cursor effect */
-  animation: typing 1s steps(23, end), blink .75s step-end infinite, removeCursor 0s step-end 2s forwards;
   z-index: 2;
 }
 
@@ -92,6 +79,33 @@ div .dot {
   right: 20%;
 }
 
+#head {
+  position: absolute;
+  top: 20%; /* Adjust as needed to position vertically */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align the text */
+  width: 100%;
+}
+
+#project1 {
+  color: #fff;
+  position: absolute;
+  top: 40%; /* Adjust as needed to position vertically */
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align the text */
+  width: 40%;
+}
+#project2 {
+  color: #fff;
+  position: absolute;
+  top: 40%; /* Adjust as needed to position vertically */
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align the text */
+  width: 40%;
+}
 .wrapper div:nth-child(2) {
   top: 0%;
   left: 20%;
